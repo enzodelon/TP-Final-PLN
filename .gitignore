@@ -1,0 +1,32 @@
+# Entornos virtuales (venv tradicional y uv)
+.venv/
+venv/
+env/
+
+# Base de datos vectorial local generada por ingesta.py
+chroma_db/
+
+# Caché de Python y artefactos de compilación
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Caché de Gradio y herramientas de desarrollo
+.gradio/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Variables de entorno, secretos y configuraciones locales
+.env
+.env.*
+*.local
+
+# Registros personales y archivos temporales
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
